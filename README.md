@@ -7,7 +7,7 @@ You can test it on: https://ingmarsoares.github.io/stopwatch/
 This stopwatch is designed to be used in the webbrowser console.
 It just has four methods:
 
- - stopWatch.help() : Show this instructions.
+ - help() : Show this instructions.
  - stopWatch.start()  : Starts the stopwatch.
  - stopWatch.stop()  : Stops the stopwatch.
  - stopWatch.reset()  : Resets the stopwatch.

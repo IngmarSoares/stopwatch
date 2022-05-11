@@ -19,11 +19,6 @@ const hora = {
 }
 const stopWatch = {
     started : false,
-    help () { 
-        console.log('stopWatch.start() : Starts the stopwatch.')
-        console.log('stopWatch.stop() : Stops the stopwatch.') 
-        console.log('stopWatch.reset() : Resets the stopwatch.') 
-        console.log('stopWatch.duration() : Prints the stopwatch current time.')},
     duration () {
         console.log(`${hora.h} Horas: ${hora.m} Minutos: ${hora.s} Segundos: ${hora.ms} Milisegundos`)
     },
@@ -49,3 +44,8 @@ const stopWatch = {
         else {throw new Error ('Cronometro ya detenido!!!!!')}
     }
 }
+function help() { 
+    console.log('stopWatch.start() : Starts the stopwatch.')
+    console.log('stopWatch.stop() : Stops the stopwatch.') 
+    console.log('stopWatch.reset() : Resets the stopwatch.') 
+    console.log('stopWatch.duration() : Prints the stopwatch current time.')}

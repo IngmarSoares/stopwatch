@@ -1,5 +1,3 @@
-# stopwatch
-
 A simple Object based terminal stopwatch
 
 You can test it on: https://ingmarsoares.github.io/stopwatch/

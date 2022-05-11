@@ -5,9 +5,9 @@ A simple Object based terminal stopwatch
 You can test it on: https://ingmarsoares.github.io/stopwatch/
 
 This stopwatch is designed to be used in the webbrowser console.
-It just has four methods:
+It just has five methods:
 
- - help() : Show this instructions.
+ - help() : Shows this instructions.
  - stopWatch.start()  : Starts the stopwatch.
  - stopWatch.stop()  : Stops the stopwatch.
  - stopWatch.reset()  : Resets the stopwatch.
